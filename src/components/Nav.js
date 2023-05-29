@@ -4,10 +4,9 @@ export default function Nav(){
     return (
         <nav className="globalnavigation">
             <NavLink to="/">Forside</NavLink>
-            <NavLink to="/prisliste">Prisliste</NavLink>
-            <NavLink to="/services">Services</NavLink>
-            <NavLink to="/booking">Booking</NavLink>
-            <NavLink to="/omos">Om os</NavLink>
+            <NavLink to="/kort">Kort</NavLink>
+            <NavLink to="/billet">Billet</NavLink>
+            <NavLink to="/underholdning">Underholdning</NavLink>
         </nav>
     )
 }
